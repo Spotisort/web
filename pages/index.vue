@@ -1,5 +1,6 @@
 <template>
   <div>
-    <button>Spotisort</button>
+    <p>{{ this.$auth.loggedIn }}</p>
+    <p>{{ JSON.stringify(this.$auth.user) }}</p>
   </div>
 </template>
