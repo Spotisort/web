@@ -16,6 +16,11 @@ export default {
     ]
   },
 
+  env: {
+    spotifyClientId: process.env.SPOTIFY_CLIENT_ID,
+    spotifyRedirectUri: process.env.SPOTIFY_REDIRECT_URI
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
