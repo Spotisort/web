@@ -1,9 +1,6 @@
 <template>
-  <Tutorial/>
+  <div>
+    <p>{{ this.$auth.loggedIn }}</p>
+    <p>{{ JSON.stringify(this.$auth.user) }}</p>
+  </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
-</script>
